@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/pages/blank_page.dart';
 import './pages/home_page.dart';
-// Asegúrate de importar correctamente BlankPage
+import './pages/blank_page.dart';
+import './pages/configuracion_page.dart'; 
 
 void main() {
   runApp(MyApp());
@@ -17,8 +17,9 @@ class MyApp extends StatelessWidget {
       ),
       home: HomePage(),
       routes: {
-         '/home': (context) => HomePage(),
+        '/home': (context) => HomePage(),
         '/blank': (context) => BlankPage(transactions: []),
+        //'/configuracion': (context) => ConfiguracionPage(),
       },
     );
   }

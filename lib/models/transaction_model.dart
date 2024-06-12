@@ -1,7 +1,3 @@
-import 'dart:convert';
-import 'dart:io';
-import 'package:path_provider/path_provider.dart';
-
 class Transaction {
   final double value;
   final String type;
@@ -28,16 +24,3 @@ class Transaction {
   }
 }
 
-void saveTransactions(List<Transaction> transactions) async {
-  final directory = await getApplicationDocumentsDirectory();
-  final file = File('${directory.path}/transactions.json');
-
-  // Convertir la lista de transacciones a una lista de Map<String, dynamic>
-  List<Map<String, dynamic>> transactionsJsonList = transactions.map((transaction) => transaction.toJson()).toList();
-
-  // Convertir la lista de Map a un JSON String
-  String transactionsJsonString = json.encode(transactionsJsonList);
-
-  // Escribir el JSON String en el archivo
-  await file.writeAsString(transactionsJsonString);
-}

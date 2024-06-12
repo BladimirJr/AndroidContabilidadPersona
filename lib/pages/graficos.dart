@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
-import 'package:flutter_application_2/models/transaction_model.dart';
+import 'package:App_Contable/models/transaction_model.dart';
 
 class ChartPage extends StatelessWidget {
   final List<Transaction> transactions;
