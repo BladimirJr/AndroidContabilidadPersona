@@ -1,8 +1,14 @@
-# flutter_application_2
+# App_Contable
+#Tiene un error en un import, si puedes solucinarlo, sería de mucha ayuda.
+-Errores corregidos
+-Funciona sin base de datos.
+-La siguiente version importará lo almacenado con un boton.
+-Se esta intentando implementar para que al crear el excel lo suba o actualice en el drive
 
-A new Flutter project.
 
-## Getting Started
+## DERECHOS RESERVADOS
+
+## HECHO EN FLUTTER
 
 This project is a starting point for a Flutter application.
 
