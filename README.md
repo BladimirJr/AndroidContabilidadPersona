@@ -1,12 +1,12 @@
 # App_Contable
-#Tiene un error en un import, si puedes solucinarlo, sería de mucha ayuda.
--Errores corregidos
--Funciona sin base de datos.
--La siguiente version importará lo almacenado con un boton.
--Se esta intentando implementar para que al crear el excel lo suba o actualice en el drive
+#Tiene un error en un import, si puedes solucinarlo, sería de mucha ayuda. <p> </p>
+-Errores corregidos <p> </p>
+-Funciona sin base de datos. <p> </p>
+-La siguiente version importará lo almacenado con un boton. <p> </p>
+-Se esta intentando implementar para que al crear el excel lo suba o actualice en el drive <p> </p>
 
 
-## DERECHOS RESERVADOS
+## DERECHOS RESERVADOS <p> </p>
 
 ## HECHO EN FLUTTER
 
